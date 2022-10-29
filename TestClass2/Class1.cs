@@ -17,7 +17,7 @@ namespace triangleclasstest
             //Arrange
             int firstAngle = 60;
             int secondAngle = 60;
-            int thirdAngle = 80;
+            int thirdAngle = 90;
             //Act
             string expected ="The triangle is valid.";
             string actual=Triangle.ValidTriangle(firstAngle, secondAngle, thirdAngle);
